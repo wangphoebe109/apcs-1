@@ -3,7 +3,7 @@ int addNumber(int h, int m);
 int main()
 {
     int a,b,min;
-    printf("enter two numer:");
+    printf("enter two number:");
     scanf("%d %d",&a,&b);
     min = addNumber(a,b);
     printf("min = %d",min);
